@@ -1,0 +1,4 @@
+SortedDictionary<string, object> entity = concreteModel.ModelMap["FTN.WindingTest"];
+WindingTest windingTest = (WindingTest)entity["9391407959_TW1_WT"];
+string print = "Atr value (LoadLoss) is : ";
+resultTbx.Text = print + windingTest.LoadLoss.ToString();
